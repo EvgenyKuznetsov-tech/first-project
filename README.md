@@ -19,9 +19,25 @@
 
 Чтобы выделить текст как код, поместите его в тройные кавычки `````. 
 
-```
-mkdir my_project
-cd my_project
-git init
+```java
+public static void printMenu() {
+        System.out.println("Что вы хотите сделать? ");
+        System.out.println("1 - Конвертировать валюту");
+        System.out.println("2 - Получить совет");
+        System.out.println("3 - Ввести трату");
+        System.out.println("4 - Показать траты по категориям");
+        System.out.println("5 - Показать самую большую трату в выбранной категории");
+        System.out.println("6 - Очистить таблицу трат");
+        System.out.println("7 - Вернуть сумму всех трат");
+        System.out.println("8 - Удалить категорию");
+        System.out.println("9 - Получить имя самой дорогой категории");
+        System.out.println("0 - Выход");
+    }
 ```
 Это лишь некоторые функции markdown.
+
+[Вот ссылка на мой источник](https://javarush.com "Сайт джавараш")
+
+Пробую вставить картинку
+![alt-текст](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Текст заголовка логотипа 1")
+
